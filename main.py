@@ -5,7 +5,7 @@ st.set_page_config(page_title="📚 Wikipedia Chatbot", page_icon="🤖")
 st.title("📚 Wikipedia Chatbot")
 
 # Small credit line under title
-st.markdown("<h6 style='text-align: center; color: grey;'>🍂 Created by honey </h6>", unsafe_allow_html=True)
+st.markdown("<h6 style='text-align: center; color: pink;'>🍂 Created by honey </h6>", unsafe_allow_html=True)
 
 # Initialize chat history in session state
 if "messages" not in st.session_state:
@@ -44,7 +44,7 @@ for msg in st.session_state.messages:
     with st.chat_message(msg["role"]):
         st.write(msg["content"])
 
-# Button to clear chat
-if st.button("🗑️ Clear Chat"):
+# Button to delete chat
+if st.button("🗑️ delete Chat"):
     st.session_state.messages = []
     st.experimental_rerun()
