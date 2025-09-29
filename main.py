@@ -4,6 +4,9 @@ import wikipedia
 st.set_page_config(page_title="📚 Wikipedia Chatbot", page_icon="🤖")
 st.title("📚 Wikipedia Chatbot")
 
+# Small credit line under title
+st.markdown("<h6 style='text-align: center; color: grey;'>✨ Created by Supraja ✨</h6>", unsafe_allow_html=True)
+
 # Initialize chat history in session state
 if "messages" not in st.session_state:
     st.session_state.messages = []
