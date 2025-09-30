@@ -12,7 +12,7 @@ st.markdown("<h6 style='text-italian: center; color: pink;'>🍂 Created by hone
 page_bg = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-color: #blue; /* Change this code to blue color */
+    background-color: light blue; /* Change this code to blue color */
 }
 
 [data-testid="stHeader"] {
