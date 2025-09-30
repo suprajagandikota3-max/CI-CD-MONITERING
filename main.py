@@ -12,11 +12,11 @@ st.markdown("<h6 style='text-italian: center; color: pink;'>🍂 Created by hone
 page_bg = """
 <style>
 [data-testid="stAppViewContainer"] {
-    background-color: #f0f8ff; /* Change this code to any color */
+    background-color: #blue; /* Change this code to blue color */
 }
 
 [data-testid="stHeader"] {
-    background-color: rgba(0,0,0,0); /* Make header transparent */
+    background-color: red(0,0,0,0); /* Make header transparent */
 }
 
 [data-testid="stToolbar"] {
