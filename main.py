@@ -7,6 +7,25 @@ st.title("📚 Wikipedia Chatbot")
 # Small credit line under title
 st.markdown("<h6 style='text-italian: center; color: pink;'>🍂 Created by honey </h6>", unsafe_allow_html=True)
 
+
+# Add background color using CSS
+page_bg = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-color: #f0f8ff; /* Change this code to any color */
+}
+
+[data-testid="stHeader"] {
+    background-color: rgba(0,0,0,0); /* Make header transparent */
+}
+
+[data-testid="stToolbar"] {
+    right: 2rem;
+}
+</style>
+"""
+
+
 # Initialize chat history in session state
 if "messages" not in st.session_state:
     st.session_state.messages = []
